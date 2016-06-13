@@ -1,0 +1,8 @@
+c:\users\jutrera\documents\visual studio 2013\Projects\jutrera.articles.tfidf\jutrera.articles.parser\bin\Debug\jutrera.articles.parser.exe.config
+c:\users\jutrera\documents\visual studio 2013\Projects\jutrera.articles.tfidf\jutrera.articles.parser\obj\Debug\jutrera.articles.parser.csprojResolveAssemblyReference.cache
+c:\users\jutrera\documents\visual studio 2013\Projects\jutrera.articles.tfidf\jutrera.articles.parser\bin\Debug\jutrera.articles.parser.exe
+c:\users\jutrera\documents\visual studio 2013\Projects\jutrera.articles.tfidf\jutrera.articles.parser\bin\Debug\jutrera.articles.parser.pdb
+c:\users\jutrera\documents\visual studio 2013\Projects\jutrera.articles.tfidf\jutrera.articles.parser\bin\Debug\MongoDB.Bson.dll
+c:\users\jutrera\documents\visual studio 2013\Projects\jutrera.articles.tfidf\jutrera.articles.parser\bin\Debug\MongoDB.Driver.dll
+c:\users\jutrera\documents\visual studio 2013\Projects\jutrera.articles.tfidf\jutrera.articles.parser\obj\Debug\jutrera.articles.parser.exe
+c:\users\jutrera\documents\visual studio 2013\Projects\jutrera.articles.tfidf\jutrera.articles.parser\obj\Debug\jutrera.articles.parser.pdb

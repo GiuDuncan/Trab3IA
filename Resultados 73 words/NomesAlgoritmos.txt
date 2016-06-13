@@ -1,0 +1,4 @@
+Árvores de Decisão - j48(c45)
+K-Nearest Neighbor (KNN) - ibk(knn)
+Support Vector Machine (SVM) - libsvw (melhor) smo
+Rede Neural (usando backpropagation) - multilayeyperceptron

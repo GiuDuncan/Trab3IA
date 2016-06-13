@@ -1,0 +1,113 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LibSVM -S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.001 -P 0.1 -model "C:\\Program Files\\Weka-3-8" -seed 1
+Relation:     Tudo-weka.filters.unsupervised.attribute.StringToWordVector-R1-W2000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"
+Instances:    50000
+Attributes:   74
+              PouN
+              amateurish
+              amazing
+              annoying
+              atrocious
+              avoid
+              awful
+              bad
+              beautiful
+              beautifully
+              boring
+              bother
+              brilliantly
+              cheap
+              couldnt
+              crap
+              decent
+              different
+              disaster
+              dreadful
+              embarrassed
+              enjoyed
+              excellent
+              fails
+              fantastic
+              favorite
+              finest
+              forgettable
+              great
+              horrible
+              lame
+              laughable
+              love
+              loved
+              mildly
+              minutes
+              mstk
+              none
+              nothing
+              outstanding
+              painful
+              pathetic
+              perfectly
+              plot
+              pointless
+              poor
+              poorly
+              predictable
+              redeeming
+              remotely
+              ridiculous
+              rubbish
+              script
+              skip
+              sorry
+              strong
+              stupid
+              superb
+              supposed
+              terrible
+              terrific
+              today
+              touched
+              trash
+              turkey
+              unfunny
+              waste
+              wasted
+              well
+              why
+              wonderful
+              wooden
+              worse
+              worst
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 144.94 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       40207               80.414  %
+Incorrectly Classified Instances      9793               19.586  %
+Kappa statistic                          0.6083
+Mean absolute error                      0.1959
+Root mean squared error                  0.4426
+Relative absolute error                 39.172  %
+Root relative squared error             88.5121 %
+Total Number of Instances            50000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,858    0,250    0,774      0,858    0,814      0,612    0,804     0,736     P
+                 0,750    0,142    0,841      0,750    0,793      0,612    0,804     0,756     N
+Weighted Avg.    0,804    0,196    0,808      0,804    0,804      0,612    0,804     0,746     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 21454  3546 |     a = P
+  6247 18753 |     b = N
+

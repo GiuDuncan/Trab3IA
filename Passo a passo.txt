@@ -1,0 +1,4 @@
+- Remove stop words com visual studio
+- Seleciona  as 3000 palavras mais usadas
+- No weka aba "Select Atributes"
+- Com a lista de palavras dadas em select atributes montar um novo arquivo

@@ -1,0 +1,201 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     Tudo-weka.filters.unsupervised.attribute.StringToWordVector-R1-W2000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"
+Instances:    50000
+Attributes:   74
+              PouN
+              amateurish
+              amazing
+              annoying
+              atrocious
+              avoid
+              awful
+              bad
+              beautiful
+              beautifully
+              boring
+              bother
+              brilliantly
+              cheap
+              couldnt
+              crap
+              decent
+              different
+              disaster
+              dreadful
+              embarrassed
+              enjoyed
+              excellent
+              fails
+              fantastic
+              favorite
+              finest
+              forgettable
+              great
+              horrible
+              lame
+              laughable
+              love
+              loved
+              mildly
+              minutes
+              mstk
+              none
+              nothing
+              outstanding
+              painful
+              pathetic
+              perfectly
+              plot
+              pointless
+              poor
+              poorly
+              predictable
+              redeeming
+              remotely
+              ridiculous
+              rubbish
+              script
+              skip
+              sorry
+              strong
+              stupid
+              superb
+              supposed
+              terrible
+              terrific
+              today
+              touched
+              trash
+              turkey
+              unfunny
+              waste
+              wasted
+              well
+              why
+              wonderful
+              wooden
+              worse
+              worst
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: P, N
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.1842 * (normalized) amateurish
+ +      -0.7976 * (normalized) amazing
+ +       0.8162 * (normalized) annoying
+ +       0.8327 * (normalized) atrocious
+ +       0.7088 * (normalized) avoid
+ +       1.2958 * (normalized) awful
+ +       0.7727 * (normalized) bad
+ +      -0.4322 * (normalized) beautiful
+ +      -0.873  * (normalized) beautifully
+ +       0.9416 * (normalized) boring
+ +       0.8162 * (normalized) bother
+ +      -1.0874 * (normalized) brilliantly
+ +       0.6276 * (normalized) cheap
+ +       0.4327 * (normalized) couldnt
+ +       0.8157 * (normalized) crap
+ +       0.36   * (normalized) decent
+ +      -0.4112 * (normalized) different
+ +       0.5488 * (normalized) disaster
+ +       1.212  * (normalized) dreadful
+ +       0.9331 * (normalized) embarrassed
+ +      -0.5481 * (normalized) enjoyed
+ +      -0.8989 * (normalized) excellent
+ +       1.2697 * (normalized) fails
+ +      -0.8226 * (normalized) fantastic
+ +      -0.7057 * (normalized) favorite
+ +      -0.9326 * (normalized) finest
+ +       1.4006 * (normalized) forgettable
+ +      -0.6059 * (normalized) great
+ +       0.872  * (normalized) horrible
+ +       1.1018 * (normalized) lame
+ +       1.1836 * (normalized) laughable
+ +      -0.4113 * (normalized) love
+ +      -0.4602 * (normalized) loved
+ +       0.8829 * (normalized) mildly
+ +       0.4874 * (normalized) minutes
+ +       1.639  * (normalized) mstk
+ +       0.3679 * (normalized) none
+ +       0.5218 * (normalized) nothing
+ +      -0.8404 * (normalized) outstanding
+ +       0.5168 * (normalized) painful
+ +       0.8997 * (normalized) pathetic
+ +      -0.7719 * (normalized) perfectly
+ +       0.2947 * (normalized) plot
+ +       1.0667 * (normalized) pointless
+ +       0.7726 * (normalized) poor
+ +       1.479  * (normalized) poorly
+ +       0.5788 * (normalized) predictable
+ +       1.2329 * (normalized) redeeming
+ +       1.166  * (normalized) remotely
+ +       0.7738 * (normalized) ridiculous
+ +       0.9336 * (normalized) rubbish
+ +       0.4107 * (normalized) script
+ +       0.9333 * (normalized) skip
+ +       0.766  * (normalized) sorry
+ +      -0.5894 * (normalized) strong
+ +       0.7729 * (normalized) stupid
+ +      -0.8987 * (normalized) superb
+ +       0.8154 * (normalized) supposed
+ +       1.0385 * (normalized) terrible
+ +      -0.8565 * (normalized) terrific
+ +      -0.7057 * (normalized) today
+ +      -0.411  * (normalized) touched
+ +       0.4607 * (normalized) trash
+ +       0.934  * (normalized) turkey
+ +       1.4229 * (normalized) unfunny
+ +       1.5884 * (normalized) waste
+ +       1.1558 * (normalized) wasted
+ +      -0.4112 * (normalized) well
+ +       0.2935 * (normalized) why
+ +      -0.7246 * (normalized) wonderful
+ +       0.9075 * (normalized) wooden
+ +       0.7159 * (normalized) worse
+ +       1.4218 * (normalized) worst
+ -       0.5886
+
+Number of kernel evaluations: -2095419594
+
+
+
+Time taken to build model: 708.09 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       40284               80.568  %
+Incorrectly Classified Instances      9716               19.432  %
+Kappa statistic                          0.6114
+Mean absolute error                      0.1943
+Root mean squared error                  0.4408
+Relative absolute error                 38.864  %
+Root relative squared error             88.1635 %
+Total Number of Instances            50000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,856    0,245    0,778      0,856    0,815      0,614    0,806     0,738     P
+                 0,755    0,144    0,840      0,755    0,795      0,614    0,806     0,757     N
+Weighted Avg.    0,806    0,194    0,809      0,806    0,805      0,614    0,806     0,747     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 21397  3603 |     a = P
+  6113 18887 |     b = N
+

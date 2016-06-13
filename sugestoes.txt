@@ -1,0 +1,3 @@
+conseguir fazer o strike a match
+
+contar o numero de palavras na frase e nao 0 ou 1

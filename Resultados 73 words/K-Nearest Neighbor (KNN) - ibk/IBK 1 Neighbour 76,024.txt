@@ -1,0 +1,115 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     Tudo-weka.filters.unsupervised.attribute.StringToWordVector-R1-W3000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"
+Instances:    50000
+Attributes:   74
+              PouN
+              amateurish
+              amazing
+              annoying
+              atrocious
+              avoid
+              awful
+              bad
+              beautiful
+              beautifully
+              boring
+              bother
+              brilliantly
+              cheap
+              couldnt
+              crap
+              decent
+              different
+              disaster
+              dreadful
+              embarrassed
+              enjoyed
+              excellent
+              fails
+              fantastic
+              favorite
+              finest
+              forgettable
+              great
+              horrible
+              lame
+              laughable
+              love
+              loved
+              mildly
+              minutes
+              mstk
+              none
+              nothing
+              outstanding
+              painful
+              pathetic
+              perfectly
+              plot
+              pointless
+              poor
+              poorly
+              predictable
+              redeeming
+              remotely
+              ridiculous
+              rubbish
+              script
+              skip
+              sorry
+              strong
+              stupid
+              superb
+              supposed
+              terrible
+              terrific
+              today
+              touched
+              trash
+              turkey
+              unfunny
+              waste
+              wasted
+              well
+              why
+              wonderful
+              wooden
+              worse
+              worst
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances       38012               76.024  %
+Incorrectly Classified Instances     11988               23.976  %
+Kappa statistic                          0.5205
+Mean absolute error                      0.2933
+Root mean squared error                  0.4198
+Relative absolute error                 58.6523 %
+Root relative squared error             83.9532 %
+Total Number of Instances            50000     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,849    0,328    0,721      0,849    0,780      0,529    0,826     0,791     P
+                 0,672    0,151    0,816      0,672    0,737      0,529    0,826     0,820     N
+Weighted Avg.    0,760    0,240    0,769      0,760    0,758      0,529    0,826     0,806     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 21224  3776 |     a = P
+  8212 16788 |     b = N
+

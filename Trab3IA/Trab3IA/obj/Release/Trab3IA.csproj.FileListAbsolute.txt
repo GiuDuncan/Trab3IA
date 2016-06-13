@@ -1,0 +1,6 @@
+C:\Users\Giulia_Duncan\Dropbox\PUC\2016.1\Inteligencia Artificial (INF1771)\Trabalho 3\Trab3IA\Trab3IA\bin\Release\Trab3IA.exe.config
+C:\Users\Giulia_Duncan\Dropbox\PUC\2016.1\Inteligencia Artificial (INF1771)\Trabalho 3\Trab3IA\Trab3IA\bin\Release\Trab3IA.exe
+C:\Users\Giulia_Duncan\Dropbox\PUC\2016.1\Inteligencia Artificial (INF1771)\Trabalho 3\Trab3IA\Trab3IA\bin\Release\Trab3IA.pdb
+C:\Users\Giulia_Duncan\Dropbox\PUC\2016.1\Inteligencia Artificial (INF1771)\Trabalho 3\Trab3IA\Trab3IA\obj\Release\Trab3IA.csprojResolveAssemblyReference.cache
+C:\Users\Giulia_Duncan\Dropbox\PUC\2016.1\Inteligencia Artificial (INF1771)\Trabalho 3\Trab3IA\Trab3IA\obj\Release\Trab3IA.exe
+C:\Users\Giulia_Duncan\Dropbox\PUC\2016.1\Inteligencia Artificial (INF1771)\Trabalho 3\Trab3IA\Trab3IA\obj\Release\Trab3IA.pdb

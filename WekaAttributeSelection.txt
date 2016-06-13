@@ -1,0 +1,101 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval -P 1 -E 1
+Search:       weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:     Tudo-weka.filters.unsupervised.attribute.StringToWordVector-R1-W3000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"
+Instances:    50000
+Attributes:   3001
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 120040
+	Merit of best subset found:    0.139
+
+Attribute Subset Evaluator (supervised, Class (nominal): 1 PouN):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 90,92,119,174,192,198,203,227,228,296,300,321,420,556,569,645,702,717,756,811,831,876,922,941,955,998,1042,1147,1269,1466,1479,1571,1572,1676,1689,1732,1788,1800,1861,1874,1897,1908,1956,1961,1966,1967,1987,2111,2141,2176,2209,2264,2380,2418,2507,2522,2556,2563,2629,2631,2690,2706,2723,2747,2779,2874,2875,2898,2922,2949,2954,2966,2967 : 73
+                     amateurish
+                     amazing
+                     annoying
+                     atrocious
+                     avoid
+                     awful
+                     bad
+                     beautiful
+                     beautifully
+                     boring
+                     bother
+                     brilliantly
+                     cheap
+                     couldnt
+                     crap
+                     decent
+                     different
+                     disaster
+                     dreadful
+                     embarrassed
+                     enjoyed
+                     excellent
+                     fails
+                     fantastic
+                     favorite
+                     finest
+                     forgettable
+                     great
+                     horrible
+                     lame
+                     laughable
+                     love
+                     loved
+                     mildly
+                     minutes
+                     mstk
+                     none
+                     nothing
+                     outstanding
+                     painful
+                     pathetic
+                     perfectly
+                     plot
+                     pointless
+                     poor
+                     poorly
+                     predictable
+                     redeeming
+                     remotely
+                     ridiculous
+                     rubbish
+                     script
+                     skip
+                     sorry
+                     strong
+                     stupid
+                     superb
+                     supposed
+                     terrible
+                     terrific
+                     today
+                     touched
+                     trash
+                     turkey
+                     unfunny
+                     waste
+                     wasted
+                     well
+                     why
+                     wonderful
+                     wooden
+                     worse
+                     worst
+
